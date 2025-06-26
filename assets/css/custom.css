@@ -1,0 +1,608 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Playfair Display', serif!important;
+}
+/*----------Back to top-----------*/
+.generate-back-to-top {
+    font-size: 20px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 300ms ease-in-out;
+}
+.gp-icon svg {
+    height: 1em;
+    width: 1em;
+    top: .125em;
+    position: relative;
+    fill: currentColor;
+}
+a.generate-back-to-top {
+    background-color: #cc3685;
+    color: #ffffff;
+}
+/*------------------Barra de Navegación---------------------*/
+.fa:hover{
+    color: #cc3685 !important;
+}
+.nav{
+    z-index: 100;
+    color: #cc3685 !important;}
+.navbar
+.navbar-nav:hover{
+    color: #cc3685 !important;
+}
+#templatemo_main_nav a:hover{
+    color: #cc3685 !important;
+   }
+ .shadow {
+ box-shadow: 0 0.5rem 1rem rgba(46, 44, 44, 0.274) !important;
+}
+.nav{
+    padding-left: 200px;
+    
+}
+.col-lg-6 h1{
+color: #fff;
+}
+.col-lg-6 p{
+    color: #fff!important;
+    }
+.navbar-toggler:hover{
+ background-color: #9f2b68;
+}
+.navbar-expand-lg{
+    background-color: hsl(0, 3%, 92%);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}  
+@media (min-width: 992px){
+#mainNav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: 0 0.5rem 1rem hsla(0, 1%, 19%, 0.021);
+}}
+
+/*boton-------*/
+.btn-xl {
+  
+    font-family: "Montserrat";
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #cc3685;
+    border-color: #cc3685;
+}
+
+
+/*-------------- BTN --------------*/
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+ .btn {
+    margin-right:  20px;
+     margin-left:  20px;
+     margin-bottom: 30px;
+    padding: 10px 26px;
+   text-decoration: none;    
+   font-size: 300;
+   color: #fff;
+   background-color: #cc3685!important;
+}
+a {
+    color: #cc3685;
+    text-decoration: none;
+}
+ 
+  /*-----------------Media contact---------------*/ 
+  @media (max-width: 556px){
+      *{
+          box-sizing: border-box;
+      }
+section{
+    width: 100%!important;
+    padding: 100px 20px;
+  
+}
+.video{
+
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%!important;
+    height: 100%;
+    object-fit: cover;
+}
+.generate-back-to-top{
+    margin-bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+.gp-icon svg {
+    height: 1.4em;
+    width: 1.4em;
+    top: .100em;
+    margin-left: -2px;
+
+}
+.home .content{
+    
+    margin-bottom: 10px!important;
+}
+.home{
+    height: 100%!important;
+}
+.contener {
+
+    height: 59vh!important;
+}
+}
+@media (max-width: 556px) {
+ div{
+
+  font-size: 16px ;
+  font-weight: 300 ;
+ }
+ .nav{
+    padding-left: 10px!important;
+}
+
+ .header-text h1{
+  font-size: 52px!important;
+  font-weight: 700!important;
+  margin-top: 8px!important;
+
+ }
+ .section-heading h4 em{
+  line-height: 40px;
+  font-size: 26px;
+  font-weight: 800;
+}
+ p{  font-size: 18px!important;
+     line-height: 25px;
+     margin-bottom: 30px;
+  }
+li{
+  font-size: 18px!important;
+} 
+ .section-heading h6 {
+      font-size: 21px !important;
+      text-transform: uppercase;
+      color: #363636;
+      font-weight: 610;
+  } 
+   input, div {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px !important;
+      font-weight: 300 !important;
+  }  
+  section.contact-us #contact textarea{
+      font-size: 18px !important;
+  }
+  label{
+      font-size: 20px!important;
+  }
+  input{
+      font-size: 20px!important;
+  }
+  .text-left p{
+      font-size: 14px!important;
+  }
+  #text{font-size: 12px!important;
+  }
+  .col-12 a{
+      font-size: 18px!important;
+  }
+  .col-md-4 a{
+      font-size: 16px!important;
+  }
+}
+
+/*---------------banners------------*/
+/*------banners del index-----*/
+
+    
+.contener{
+    
+    text-align: center;
+    position: center
+    ;
+    height: 98vh;
+}
+.content{
+    margin-top: 24px!important;
+}
+.video-container{
+    margin-top: 24px!important;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.video{
+    width: 100%;
+}
+
+.home{
+    background:linear-gradient(rgba(54, 55, 56, 0.966), rgba(56, 56, 59, 0.596),  rgba(246, 247, 248, 0));
+    
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 70%;
+    margin-top: 24px;
+    margin-bottom: 74px;
+}
+
+.home .content{
+    margin-top: 54px!important;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    margin-bottom: 54px;
+    text-align: center;
+    width:80rem;
+}
+
+.home .content h3{
+    margin-top: 72px;
+    color:whitesmoke;
+    font-size: 3rem;
+}
+
+.home .content h3 span{
+    color: whitesmoke;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.home h3,h4{
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+.content h4 {
+    color: whitesmoke;
+}
+.home .content p{
+    color:var(--light-color);
+    font-size: 1.7rem;
+    padding:1rem 0;
+    line-height: 1.8;
+    margin-bottom: 65px;
+}
+.home .content a{
+    padding: 15px 35px;
+   text-decoration: none;    
+   font-size: 300;
+}
+.home .btn{
+   
+    margin-top: 3rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:2rem #0a0a0a;
+    color:white;
+    cursor: pointer;
+    background: #cc3685;
+}
+
+
+.btn:hover{
+    background: #963367;
+    color:#ffffff;
+}
+
+/*--------------descrip------------*/
+@media only screen and (max-width: 986) and (min-width: 769){
+.row {
+    --bs-gutter-x: 4rem;}}
+    @media only screen and (max-width: 1200) and (min-width: 986){
+.row {
+    --bs-gutter-x: 6rem;}}
+/*----------------------lo más vendido ----------------------*/
+.white{
+    color: white;
+}
+.list-unstyled{
+    justify-content: center!important;
+}
+@media only screen and (max-width: 479px) and (min-width: 320px){
+    .h-100 {
+        height: 100%!important;
+    }
+    .card{
+        width: 97%;
+    }
+    p{
+        font-size: 18px;
+    }
+    .h2{
+        font-family: 'Montserrat', sans-serif;
+    font-size: 28px !important;
+    }
+    .img-top{
+        width: 60%;
+        justify-content: center;
+    }
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+/*----------------------footer----------------------*/
+#tempaltemo_footer .border-light  .fab{
+    background-color: #cc3685;
+}
+@media only screen and (max-width: 479px) and (min-width: 320px){
+.social-icons {
+    width: 92%;
+    padding-top: 55px;
+}}
+@media only screen and (max-width: 479px) and (min-width: 320px){
+.social-icons1 {
+    padding-top: 9px;
+    width: 40px;
+    height: 40px;
+}}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.social-icons {
+    width: 36%;
+    padding-top: 10px;
+}}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.social-icons1 a i {
+    font-size: 22px;
+}}
+
+.social-icons {
+    width: 380px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+}
+.social-icons1 {
+    padding-top: 8px;
+    text-align: center;
+    width: 40px;
+    height:40px;
+    background: #cc3685;
+    border-radius: 50%;
+    
+}
+.social-icons1:hover {
+    background: #9f2b68;
+    border-radius: 50%;
+
+    
+}
+.social-icons1 a {
+    color: rgb(255, 255, 255)!important;
+}  
+.social-icons1 a:hover {
+    color: rgb(255, 255, 255)!important;
+}  
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;}
+    .social-icons1 a i {
+        font-size: 25px;
+    }
+    i[class*="fa-"], span[class*="fa-"] {
+        display: inline-block;
+        font-size: 16px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        top: -2px;
+        word-spacing: 1px;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+.text-left .text-left a{
+color: #0a0a0a!important;
+}  
+/*-----------------------------Formulario de Contacto-----------------------------------*/   
+/*-----------------------------Formulario de Contacto-----------------------------------*/   
+/* 
+---------------------------------------------
+contact us
+--------------------------------------------- 
+*/
+
+section.contact-us {
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    position: relative;
+  }
+  
+  section.contact-us:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 60px;
+    width: 267px;
+    height: 396px;
+    z-index: 1;
+  }
+ 
+section.page-heading {
+    background-image: url(../img/up.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    position: relative;
+  }
+  
+  
+  section.contact-us .contact-info {
+    background-color: #fff;
+    margin-top: -30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    z-index: 5;
+    position: relative;
+    padding: 20px;
+  }
+  
+
+  section.contact-us .contact-info h4 {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  section.contact-us .section-heading {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  section.contact-us #contact {
+    margin-left: -100px;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+  }
+  
+  section.contact-us #contact input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f4f7fb;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+  }
+  
+  section.contact-us #contact textarea {
+    width: 100%;
+    min-height: 140px;
+    max-height: 180px;
+    border-radius: 5px;
+    background-color: #f4f7fb;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  
+  section.contact-us #contact button {
+
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background: #cc3685;
+    background: linear-gradient(-145deg,  0%, 100%);  padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
+    transition: all .3s;
+    border: none;
+    outline: none;
+  }
+  
+  section.contact-us #contact button:hover {
+    background: #963367;
+  }
+  
+  section.contact-us ul.social-icons li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  
+  section.contact-us ul.social-icons {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  section.contact-us ul.social-icons li a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #fff;
+    color: #cc3685;
+    border-radius: 50%;
+    transition: all .5s;
+  }
+  
+  section.contact-us ul.social-icons li a:hover {
+    background-color: #cc3685;
+    color: #fff;
+  }
+  
+  p.copyright {
+    text-align: center;
+    color: #fff;
+    margin: 40px 0px;
+  }
+  
+  p.copyright a {
+    font-weight: 700;
+    color: #fff;
+  }
+ 

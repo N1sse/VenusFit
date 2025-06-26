@@ -1,0 +1,188 @@
+@media only screen and (max-width: 556px) and (min-width: 401px){
+.card-body {
+    height: 713px;
+    width: 100%;
+}
+main {
+  margin-bottom: 0px!important;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: -3rem 1rem!important;
+}
+.card div
+.card a{
+    font-size: 20px !important;
+}
+.card-img-overlay .btn {
+      
+    margin-bottom: -1120px;
+   }
+.container{
+    margin-top: -40px!important;
+}
+.btn {
+    width: 80px!important;
+}
+.btn {
+margin-right: 9px!important;
+    margin-left:10px!important;
+    margin-bottom: 30px!important;
+}
+.card.product-wap .card .product-overlay {
+    visibility: visible !important;
+    opacity: 1!important;
+    background: rgb(0 0 0 / 0%)!important;
+
+}
+}
+@media only screen and (max-width: 556px) and (min-width: 401px){
+.card-img-overlay .btn {
+    margin-top: 30px!important;
+}}
+.slick-dots li button{
+    margin-bottom: 80px!important;
+}
+.card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+/*--------------Cards--------------*/
+
+.rounded-0 {
+    border-radius: 0!important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    border-radius: calc(0.25rem - 1px);
+}
+.card {
+    position: relative!important;
+    display: flex!important;
+    flex-direction: column!important;
+    min-width: 0!important;
+    word-wrap: break-word;
+    background-color: #fff!important;
+    background-clip: border-box!important;
+    border: 1px solid rgba(0,0,0,.125)!important;
+    border-radius: 0.25rem!important;
+}.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px)!important;
+    border-top-right-radius: calc(0.25rem - 1px)!important;
+}
+.card-img, .card-img-bottom {
+    border-bottom-right-radius: calc(0.25rem - 1px)!important;
+    border-bottom-left-radius: calc(0.25rem - 1px)!important;
+}
+.card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.rounded-0 {
+    border-radius: 0;
+}
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    flex: 1 1 auto !important;
+    padding: 0,33rem 1rem!important; 
+}
+.product-wap {
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%)!important; 
+}
+.product-wap li, .product-wap i, .product-wap p {
+    font-size: 17px !important; 
+    height: 80px
+  
+}
+.text-center{
+    margin-top: -40px;
+}
+
+.card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+.card{
+   height: 88%;
+}
+.lower{
+    font-size: 13px;
+    color: rgba(124, 119, 119, 0.856);
+}
+
+/*--------------BTN--------------*/
+.btn {
+    margin-right:  20px;
+     margin-left:  20px;
+     margin-bottom: 30px;
+    padding: 20px 16px;
+   text-decoration: none;    
+   font-size: 300;
+   color: #fff;
+   background-color: #8d1e59!important;
+}
+.col button{
+    padding: 20px 46px!important; 
+}
+/*-----------------------------------------------------*/
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem!important;
+}
+.btn {
+    margin-bottom: -267px!important;
+    width: 320px!important;
+}
+
+.list-unstyled .btn{
+    margin-bottom: -200px!important;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    padding: -25em 10px;
+    border-color: #ffffff00;
+    font-size: 14px;
+    visibility: visible;
+    opacity: 0;
+    transition: all .1s ease-out;
+}
+section.page-heading .header-text h2 {
+    font-size: 58px;
+    font-weight: 900;
+    color: #111;
+    margin-top: -301px!important;
+}
+p .text-muted {
+    color: rgb(46, 45, 45)!important;
+}
+button{
+    width: 300px!important;
+}

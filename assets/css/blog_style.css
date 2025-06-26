@@ -1,0 +1,347 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    font-family: 'Playfair Display', serif!important;
+}
+*{
+    box-sizing: border-box;
+   
+}
+/*--------------BAnner--------------*/
+.post{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 88px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/post-blog.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+}
+
+.bloggi{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 88px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+}
+.bloggi1{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 88px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 0rem;
+}
+.bloggi2{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0rem;
+    padding-bottom: 10rem;
+}
+/* blog */
+.blog{
+    background: #f9f9f9;
+    padding: 4.5rem 0;
+}
+.blog-content{
+    margin: 2rem 0;
+}
+.blog-img{
+  
+    position: relative;
+}
+.blog-img span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--exDark);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+}
+.blog-text{
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+.blog-text span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+.title h2{
+    justify-content: center!important;
+    text-align: center;
+}
+.title p{
+    justify-content: center!important;
+    text-align: center;
+}
+.blog-text h2{
+   
+    font-family: var(--Playfair);
+    padding: -15rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+.blog-text p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2.2rem;
+}
+.blog-text a{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--dark);
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.blog-text a:hover{
+    background: #973468;
+}
+
+/* about */
+
+.info{
+    border-color: 3px black!important;
+    padding: 4.5rem 0;
+}
+.info-text{
+    margin: 2rem 0;
+}
+.about{
+    padding: 4.5rem 0;
+}
+.about-text{
+    margin: 2rem 0;
+}
+.about-text > p{
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    opacity: 0.8;
+}
+
+
+/*:::Boton-Modal:::*/
+.boton-modal{
+    padding: 10px;
+}
+.boton-modal label{
+    padding: 11px 42px;
+    background-color: #3d4042;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-weight: 300;
+}
+.boton-modal label:hover{
+    background-color: #973468;
+}
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
+#btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+} 
+.modalimg img{
+    margin-left:100px;
+    width: 60%;
+
+    justify-content: center;
+    align-items: center;
+}
+.content-modal{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 200%;
+    max-width: 850px;
+    padding-top: 40px!important;
+    background-color: #fff;
+    border-radius: 4px;
+    
+}
+.content-modal h2{
+    margin-bottom: 15px;
+}
+.content-modal p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-modal .btn-cerrar label:hover{
+    background-color:#185E83;
+}
+.cerrar-modal{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .content-modal{
+        width: 90%;
+    }
+}
+/*:::Fin Ventana Modal:::*/
+
+
+
+/*//------------------Media ------------------ //*/
+@media  only screen and (max-width: 420px)and (min-width: 320px) {
+   .bloggi{
+       display: none;
+   }
+   .bloggi1{
+    display: flex;
+    margin-top: 80px;
+   }
+   .bloggi2{
+    display: flex;
+    margin-top: 0px;
+   
+   }
+   .blog-img img{
+    width: 98% !important;
+   }
+}
+@media  only screen and (max-width: 420px)and (min-width: 320px) {
+    .amanda{
+        width: 100%;
+    }
+    .infoimg{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 540px){
+    .navbar-nav a{
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+    .banner-title{
+        font-size: 5rem;
+    }
+    .banner form{
+        margin-top: 1.4rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search-input{
+        padding: 0.8rem 0;
+    }
+    .design-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .design-item{
+        margin: 0;
+    }
+    .blog-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .blog-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        align-items: center;
+    }
+    .info-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .design-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .amanda{
+        width: 80%;
+    }
+    .blog-img img{
+        width: 90%!important;
+    }
+}
