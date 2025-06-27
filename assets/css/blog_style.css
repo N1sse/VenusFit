@@ -6,6 +6,7 @@ h1, h2{
 }
 *{
     box-sizing: border-box;
+    
    
 }
 /*--------------BAnner--------------*/
@@ -140,7 +141,8 @@ h1, h2{
     padding: 4.5rem 0;
 }
 .info-text{
-    margin: 2rem 0;
+    margin: 1rem 0;
+    margin-right: 60px;
 }
 .about{
     padding: 4.5rem 0;
@@ -292,11 +294,13 @@ h1, h2{
     }
 }
 
+
 @media screen and (min-width: 768px){
     .navbar .container{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        overflow: hidden; 
     }
     .search-input{
         padding: 0.8rem 0;
@@ -314,6 +318,18 @@ h1, h2{
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+    .post{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+        width: 100%;
+         overflow: hidden; 
+    }
+    .inclassimg .infoimg{
+        justify-content: center!important;
+        width: 500px;
+        padding: 100px;
+    }
+
 }
 
 @media screen and (min-width: 992px){
@@ -333,6 +349,11 @@ h1, h2{
         align-items: center;
     }
 }
+
+@media screen and (min-width: 1000px){
+
+}
+
 
 @media screen and (min-width: 1200px){
     .design-content{

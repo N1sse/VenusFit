@@ -133,6 +133,9 @@ body, ul, li, p, a, label, input, div {
   height: 2.6em;
   line-height: 2.6em;
 }
+.input-group input {
+  color: #ffffff;
+}
 #tempaltemo_footer ul.footer-icons li:hover {
   background-color: #ffffff;
   transition: .5s;
@@ -168,6 +171,8 @@ body, ul, li, p, a, label, input, div {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   #mainNav {
+    margin-left: auto;
+    width: 70%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
