@@ -67,6 +67,14 @@ h1, h2{
     padding-top: 0rem;
     padding-bottom: 10rem;
 }
+/*----------fin del banner*/
+
+/*titulo del blog*/
+main h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 /* blog */
 .blog{
     background: #f9f9f9;
