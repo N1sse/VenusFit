@@ -351,3 +351,18 @@ h2{
     margin-bottom: -880px!important;
    }
 }
+@media only screen and (max-width: 556px) {
+  .btn {
+      margin-bottom: 20px !important;
+  }
+  .card {
+      height: auto !important;
+  }
+  .card-body {
+      height: auto !important;
+  }
+  .mb-4 {
+      margin-bottom: 2rem !important;
+  }
+}
+
